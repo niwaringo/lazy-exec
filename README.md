@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 To wait for the execution until the specified DOM appears.
 
 ## INSTALL
@@ -30,7 +29,3 @@ var jquery = document.createElement("script");
 jquery.src = "https://code.jquery.com/jquery.js";
 document.head.appendChild(jquery);
 ```
-=======
-# lazy-exec
-To wait for the execution until the specified DOM appears.
->>>>>>> 22790138a66408b95c0ca3cc023f33054607f953
