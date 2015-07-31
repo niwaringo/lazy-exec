@@ -1,6 +1,6 @@
 {
   "name": "lazy-exec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To wait for the execution until the specified DOM appears.",
   "main": "lazyexec.js",
   "scripts": {
