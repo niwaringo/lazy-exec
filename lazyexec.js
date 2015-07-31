@@ -2,10 +2,11 @@ var lazyExec = function(selector, callback, delay, try_limit) {
     delay = delay || 1000;
     try_limit = try_limit || 10;
 
-    var target = document.querySelector(selector);
     var try_count = 0;
 
     var lazyExec = setInterval(function() {
+        var target = document.querySelector(selector);
+
         if(try_limit > try_count && !target) {
             return try_count++;
         }
